@@ -47,11 +47,20 @@ The first segment you will see is the placement. Placement is just the domain an
 
 ## Image and Shape ##
 
+### Image ###
+
 We are going to edit this by clicking edit and the following will show.
 
 ![image_setup](docs/is1.jpg)
 
-Let's go ahead and choose an image. When the menu opens on the side, choose Canonical Ubuntu. We will use 22.04 which is the default version as of writing. Select image and move on to change shape.
+
+
+
+
+    Let's go ahead and choose an image. When the menu opens on the side, choose Canonical Ubuntu. We will use 22.04 which is the default version as of writing. Select image and move on to change shape.
+
+
+### Shape ###
 
 ![shape_setup](docs/is2.jpg)
 
@@ -61,7 +70,7 @@ Then move the slider to the right so you get 4 OCPU and 24 GB of RAM
 
 ![shapesize_setup](docs/is3.jpg)
 
-### **Keep in mind, if you are wanting to have multiple servers, you will need to divvy this up to smaller chunks at the expense of hardware performance.** ###
+    **Keep in mind, if you are wanting to have multiple servers, you will need to divvy this up to smaller chunks at the expense of hardware performance.**
 
 Once you select your shape, move down to Add SSH Keys
 
@@ -86,7 +95,7 @@ The same goes for the above when choosing the size of your shape. If you want mu
 
 You can also set the VPU boot performance to 20 which is the max you can do for free tier, although I haven't seen a noticable different on performance.
 
-**Also, make sure Use in-transit encryption is UNCHECKED**
+    **Also, make sure Use in-transit encryption is UNCHECKED**
 
 ## Once you're done, Create it ##
 
@@ -145,5 +154,15 @@ When done, go back to the first image above and save the session to get back to 
 
 # Time for the Real Deal #
 
-Now it's time to get this going. Let's go ahead and get everything updated. You can easily copy the code then right click into the putty screen and hit enter. I think from here, I'll stop holding your hand and just pretty much set up what I have for you.
+Now it's time to get this going. Let's go ahead and get everything updated. You can easily copy the code then right click into the putty screen and hit enter. 
+
+Thanks to NicoD and a team over at Armbian-Gaming, I pooled together what's needed to get the Conan Server running. There will be a repository of files that is needed to make this work.
+
+# Install #
+
+It's time to clone this repository and execute the ordeal.
+
+Copy paste this in your SSH
+
+`git clone https://github.com/dafitime/Conan-Exiles-Server-Oracle-Cloud-Edition.git | cd Conan-Exiles-Server-Oracle-Cloud-Edition `
 
