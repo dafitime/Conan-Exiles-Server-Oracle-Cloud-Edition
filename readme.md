@@ -9,7 +9,9 @@ Oracle Cloud allows us to create an Always Free Tier Cloud Server that runs on L
 
 Thankfully, we can utilize box86/box64 
 
-Another issue is performance which I have not have been able to test as of yet. So far, a light modded to no-modded server has given suitable results to run a server outside my home. A heavy modded server (roughly 30 mods) takes about 11 minutes to boot up, but has so far been okay. I haven't tried heavier mods suchs as AoC, EEWA, and VAM, which I expect the bootup times for these to increase quite a bit.
+Another issue is performance which I have not have been able to test as of yet. So far, a light modded to no-modded server has given suitable results to run a server outside my home. Boot up time for a minimal server or with light mods clocked in around 5 minute mark. Not as fast but good enough for a free server.
+
+ A heavy modded server (roughly 30 mods) takes about 11 minutes to boot up, but has so far been okay. I haven't tried heavier mods suchs as AoC, EEWA, and VAM, which I expect the bootup times for these to increase quite a bit.
 
 
 
