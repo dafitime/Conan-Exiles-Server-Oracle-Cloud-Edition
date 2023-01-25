@@ -1,3 +1,5 @@
+GUIDE IS NOT COMPLETE AS OF NOW 1/24/23 BUT WILL BE SOON
+
 # Conan-Exiles-Free-Game-Server-Setup-Using-Oracle-Cloud
 ![valheim_oracle](docs/logo.png)
 
